@@ -12,7 +12,7 @@ This is a Foundry VTT module for pulling *every* player to a specific scene. If 
 
 When you want to modify or test a scene your are building it is very handy to take a "snapshot" (similar to a quick save) of the entire scene status (doors, actor tokens, etc) so you can mess around with all that and go back (quickly restore) the original state of the scene.
 
-The concept is quite simple: Before you do any major modification on a scene, just click on **Backup Scene** and this module will automatically create a backup to the current scene (the one you are looking, not the active one). Then at anytime you can click on **Restore Scene** to restore it to that state. If you are concerned with the storage of that or for your own organization you can always click on **Remove Backup** for that scene afterwards.
+The concept is quite simple: Before you do any major modification on a scene, just click on **Backup Scene** and this module will automatically create a backup of the scene state. Then at anytime you can click on **Restore Scene** to restore it to that state. If you are concerned with the storage of that or for your own organization you can always click on **Remove Backup** to remove the backup for that scene afterwards.
 
 # Changelog
 ### 1.0.0
