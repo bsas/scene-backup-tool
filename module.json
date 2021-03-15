@@ -18,5 +18,5 @@
     "scripts": [
         "scripts/scene-backup-tool.js"
     ],
-    "manifest": "https://github.com/bsas/scene-backup-tool/blob/main/module.json"
+    "manifest": "https://raw.githubusercontent.com/bsas/scene-backup-tool/main/module.json"
 }
