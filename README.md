@@ -1,5 +1,5 @@
 # Simple Scene Backup Tool
-This is a Foundry VTT module for pulling *every* player to a specific scene. If you have a large party and they are across various scenes, this adds a shortcut to pull the party together quickly  and easily.
+This is a Foundry VTT module for GMs to quickly backup and restore scenes.
 
 
 # Installation
