@@ -20,18 +20,19 @@ async function sceneBackupTool(scene) {
         let data = JSON.stringify(scene)
         storage[scene.id] = data
         await game.settings.set('scene-backup-tool', 'storage', storage)
-        ui.notifications.info(`Backup created for ${scene.name}`)
+        ui.notifications.info(`Backup created to scene '${scene.name}'`)
     }
 
     async function restore() {
         let data = storage[scene.id]
         await scene.importFromJSON(data)
-        ui.notifications.info(`Backup restored to ${scene.name}`)
+        ui.notifications.info(`Backup restored to scene '${scene.name}'`)
     }
 
     async function remove() {
         delete storage[scene.id]
         await game.settings.set('scene-backup-tool', 'storage', storage)
+        ui.notifications.info(`Backup removed for scene '${scene.name}'`)
     }
 
     return await new Promise((resolve) => {

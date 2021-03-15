@@ -3,7 +3,7 @@
     "title": "Scene Backup Tool",
     "description": "Let GMs quickly backup and restore scenes.",
     "author": "bsas",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion": "0.7.9",
     "languages": [{
@@ -19,5 +19,5 @@
         "scripts/scene-backup-tool.js"
     ],
     "manifest": "https://raw.githubusercontent.com/bsas/scene-backup-tool/main/module.json",
-    "download": "https://github.com/bsas/scene-backup-tool/archive/v1.0.1.zip"
+    "download": "https://github.com/bsas/scene-backup-tool/archive/v1.0.2.zip"
 }
