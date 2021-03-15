@@ -19,7 +19,7 @@ async function sceneBackupTool(scene) {
     async function backup() {
         let data = JSON.stringify(scene)
         storage[scene.id] = data
-        game.settings.set('scene-backup-tool', 'storage', storage)
+        await game.settings.set('scene-backup-tool', 'storage', storage)
         ui.notifications.info(`Backup created for ${scene.name}`)
     }
 
@@ -31,7 +31,7 @@ async function sceneBackupTool(scene) {
 
     async function remove() {
         delete storage[scene.id]
-        game.settings.set('scene-backup-tool', 'storage', storage)
+        await game.settings.set('scene-backup-tool', 'storage', storage)
     }
 
     return await new Promise((resolve) => {
