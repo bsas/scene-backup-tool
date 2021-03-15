@@ -3,7 +3,7 @@ This is a Foundry VTT module for GMs to quickly backup and restore scenes.
 
 
 # Installation
-1. Inside Foundry's Configuration and Setup screen, go to **Scene Backup Tool**
+1. Inside Foundry's Configuration and Setup screen, go to **Add-on Modules**
 2. Click "Install Module"
 3. In the Manifest URL field paste: `https://raw.githubusercontent.com/bsas/scene-backup-tool/main/module.json`
 
