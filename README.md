@@ -15,6 +15,9 @@ When you want to modify or test a scene that your are building it is very handy 
 The concept is quite simple: Before you do any major modification on a scene, just click on **Backup Scene** and this module will automatically create a backup of the scene state. Then at anytime you can click on **Restore Scene** to restore it to that state. If you are concerned with the storage or for your own organization you can always click on **Remove Backup** to remove the backup for that scene.
 
 # Changelog
+### 1.0.3
+- Storage optimization
+
 ### 1.0.2
 - Minor fixes
 
