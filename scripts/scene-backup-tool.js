@@ -81,5 +81,5 @@ Hooks.on("getSceneNavigationContext", (html, contextOptions) => {
 });
 
 Hooks.on("getSceneDirectoryEntryContext", (html, contextOptions) => {
-    contextOptions.push(getSceneBackupToolContextOption('entityId'));
+    contextOptions.push(getSceneBackupToolContextOption('documentId'));
 });
