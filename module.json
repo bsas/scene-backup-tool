@@ -2,10 +2,16 @@
     "name": "scene-backup-tool",
     "title": "Scene Backup Tool",
     "description": "Let GMs quickly backup and restore scenes.",
-    "author": "bsas",
+    "authors": [
+        { "name": "bsas" }
+    ],
     "version": "1.0.4.1",
     "minimumCoreVersion": "9.238",
     "compatibleCoreVersion": "9.249",
+    "compatibility": {
+        "minimum": "9.238",
+        "verified": "9.249"
+    },
     "languages": [{
         "lang": "en",
         "name": "English",
